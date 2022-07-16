@@ -1,0 +1,300 @@
+/*estilizaçoes gerais*/
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 0;
+    width: 100%;
+}
+
+.footer-home p, .site-name, .html-codex, .themewagon, .informs span, .team span, header i, .informs i {
+    color: rgb(243, 189, 0);
+}
+
+/*header*/
+.nav-header p, .nav-header li {
+    font-size: 11px;
+}
+
+.nav-header, .nav-1 > p, .nav-2 > p {
+    background-color: rgb(12, 43, 75);
+    color: rgb(233, 221, 221);
+}
+
+.phone {
+    padding-top: 6%;
+}
+
+.list-group-item-1, .list-group-item-2, .list-group-item-3 {
+    padding: 1rem;
+    border-right: 1px solid rgb(117, 117, 117);
+    list-style-type: none;
+}
+
+.list-group-item-4 {
+    padding: 1rem;
+    list-style-type: none;
+}
+
+nav i {
+    font-size: 25px;
+}
+
+.fa-clock {
+    margin-left: 2rem;
+}
+
+.nav-header {
+    height: 40px;
+}
+
+.nav {
+    background-color: white;
+}
+
+.home {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.nav span {
+    color: rgb(10, 10, 86);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.nav .drivin-icon {
+    font-size: 30px;
+}
+
+.fa-arrow-right {
+    font-size: 14px;
+    color: white;
+}
+
+a, select {
+    color: rgb(10, 10, 86);
+    text-decoration: none;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.get-started {
+    margin-left: 1rem;
+    background-color: rgb(243, 189, 0);
+    height: 100%;
+    padding: 0 2rem;
+}
+
+.get-started > a {
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+.nav a {
+    padding: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+main {
+    padding-top: 3rem;
+    padding-bottom: 10rem;
+}
+
+/*carrossel*/
+.carousel-caption {
+    height: fit-content; 
+    left: 0%; 
+    right: 7%; 
+    padding: 0px; 
+    -transform: translateY(-50%); 
+    transform: translateY(-50%);
+}
+
+.carousel-caption h2 {
+    width: fit-content;
+}
+
+.carousel {
+    margin-top: 50px; 
+    overflow: hidden;
+}
+
+.learn, .courses {
+    border: none;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 3rem;
+    width: 20%;
+    height: 3rem;
+    margin-top: 2rem;
+    width: fit-content;
+}
+
+.learn {
+    background-color: rgb(243, 189, 0);
+    color: white;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: rgba(243, 190, 0, 0.835);
+}
+
+/*corpo da página após o carrossel*/
+.informs span, .team span {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.informs h2, .team h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(10, 10, 86);
+}
+
+section {
+    margin-top: 6rem;
+}
+
+.informs p, .team p {
+    color: rgb(138, 138, 138);
+}
+
+.informs h3, .team h3 {
+    font-size: 14px;
+    color: rgb(10, 10, 86);
+    font-weight: bold;
+}
+
+.check-item {
+    width: 50%;
+}
+
+.fa-square-check {
+    font-size: 30px;
+}
+
+.img-rel {
+    width: 28rem;
+}
+
+.img-abs {
+    width: 12rem;
+    border-left: 1rem solid white;
+    border-bottom: 1rem solid white;
+}
+
+.image-abs {
+    transform: translateY(-15%);
+}
+
+.image-rel {
+    width: fit-content;
+}
+
+.profile {
+    max-width: 15rem;
+    max-height: 20rem;
+    width: auto;
+    height: auto;
+}
+
+.prof1, .prof2, .prof3, .prof4 {
+    background-color: rgb(243, 246, 248);
+    top: 80%;
+    width: 100%;
+}
+
+/*footer*/
+.footer-container {
+    color: rgb(233, 221, 221);
+    font-weight: normal;
+}
+
+.footer-top {
+    padding: 4rem 0 4rem 0;
+    background-color: rgb(12, 43, 75);
+    min-height: fit-content;
+}
+
+.topic {
+    padding: 0 5rem 0 3rem;
+}
+
+footer i, footer a {
+    color: rgb(233, 221, 221);
+    font-weight: normal;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.footer-home p, .footer-home i {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+footer h3 {
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 14px;
+}
+
+.footer-list i {
+    text-align: center;
+    font-size: 12px;
+    border: 1px solid rgb(233, 221, 221);
+    width: 30px;
+    height: 30px;
+}
+
+footer p {
+    font-size: 12px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+.footer-list {
+    margin-right: 3px;
+}
+
+form {
+    font-size: 12px;
+    margin-bottom: 16px;
+}
+
+.form-email {
+    border: none;
+    text-align: center;
+    height: 40px;
+    width: 150px;
+    color: rgb(108, 117, 125);
+}
+
+.submit {
+    margin: 0;
+    background-color: rgb(243, 189, 0);
+    color: white;
+    border: none;
+    height: 40px;
+    width: 70px;
+}
+
+.follow {
+    margin-bottom: 16px;
+}
+
+.footer-bottom {
+    background-color: rgb(9, 33, 57);
+}
+
+.fb-container {
+    width: 1000px;
+    margin-right: 40px;
+}
